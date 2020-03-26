@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2020_03_24_060337) do
   create_table "outfits", force: :cascade do |t|
     t.string "top"
     t.string "bottom"
+    t.string "recommended_Weather"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

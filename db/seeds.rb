@@ -10,19 +10,23 @@ outfits = Outfit.create(
     [
         {
             top: 'T-Shirt',
-            bottom: 'Shorts'
+            bottom: 'Shorts',
+            recommended_Weather: 'Summer'
         },
         {
             top: 'Long Sleeves',
-            bottom: 'Jeans'
+            bottom: 'Jeans',
+            recommended_Weather: 'Spring'
         },
         {
             top: 'Sweater',
-            bottom: 'Jeans'
+            bottom: 'Jeans',
+            recommended_Weather: 'Fall'
         },
         {
             top: 'Something Warm',
-            bottom: 'Jeans'
+            bottom: 'Jeans',
+            recommended_Weather: 'Winter'
         }
     ]
 )
